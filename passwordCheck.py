@@ -2,7 +2,7 @@
 import re   #import regular expressions
 import getpass
 
-print (chr(27) + "[2J")
+print (chr(27) + "[2J") #this will add empty lines (to clear the screen) prior to running the program, to improve the command line users experience.
 
 print ("\n\nCreate a new password that is between 6-12 characters long. A strong password contains at least one lowercase and uppercase letter, at least one digit and at least one special character.")
 def main():
